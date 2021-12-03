@@ -1,0 +1,6 @@
+{
+    "C_Cpp.default.cppStandard": "c++11",
+    "files.associations": {
+        "iostream": "cpp"
+    }
+}
