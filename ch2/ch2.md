@@ -13,17 +13,53 @@
 
    > [1] A survey of monocular simultaneous localization and mapping 2016
    >
+   > 文中首先简述基于视觉的同时定位与地图构建的基本原理; 
+   >
+   > 然后介绍几个代表性的基于单目视觉的同时定位与地图构建方法并做深入分析和比较; （基于滤波器、基于关键帧BA和基于直接跟踪的VSLAM）
+   >
+   > 最后讨论近年来研究热点和发展趋势, 并做总结和展望.
+   >
    > [14] Graph-based slam: A survey, ROBOT 2013
+   >
+   > 从帧间配准、环形闭合检测以及优化技术 3 个主要方面
+   >
+   > 对基于图优化的同时定位与地图创建进行综述.
 
 2. 阅读SLAM的综述文献，例如[9，15-18]等。这些文献中关于SLAM的看法与本书有何异同；
 
    > [9] Past, present and future of simultaneous localization and mapping: Towards the robust-perception age 2016
    >
+   > * We survey the current state of SLAM.
+   >
+   > *  start by presenting what is now the de-facto standard formulation for SLAM.
+   >
+   > * We then review related work, covering a broad set of topics including 
+   >
+   >   robustness and scalability in long-term mapping, 
+   >
+   >   metric and semantic representations for mapping, 
+   >
+   >   theoretical performance guarantees, 
+   >
+   >   active SLAM and exploration, and other new frontiers.
+   >
+   > * Do robots need SLAM? and Is SLAM solved?
+   >
    > [15] Visual simultaneous localizaion and mapping: a survey 2015
+   >
+   > *  provide new researchers in the field of visual SLAM a brief and 
+   >
+   >    comprehensible review of the state-of-the-art.
    >
    > [16] Topological simultaneous localization and mapping: a survey 2014
    >
-   > [17] Kalman filter for robot vision: A survey 2012
+   > * One of the main challenges in robotics is navigating autonomously through large, unknown, and unstructured environments.
+   >
+   > * This paper intends to provide an introductory overview of the most prominent techniques that have been applied to topological SLAM in terms of 
+   >
+   >   ==feature detection, map matching, and map fusion==.
+   >
+   > [17] Kalman filter for robot vision: A survey 2012 ==未下载到pdf==
    >
    > [18] Recent advances in simultaneous localization and map-building using computer vision 2007
 
