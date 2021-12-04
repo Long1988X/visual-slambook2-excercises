@@ -47,6 +47,8 @@ int main(int argc, char **argv)
     T.rotate(rotation_vector);
     T.pretranslate(Vector3d(1, 2, 3));
     cout << "Tranform matrix = \n" << T.matrix() << endl;
+    cout << "Tranform rotation = \n" << T.rotation() << endl;
+    cout << "Tranform translation = \n" << T.translation() << endl;
 
     Vector3d v_tranformed = T * v;
     cout << "T * v = " << v_tranformed.transpose() << endl;
@@ -66,5 +68,6 @@ int main(int argc, char **argv)
     // 使用常规向量乘法表示：
     cout << "Should be equal to " << (q_v * Quaterniond(0,1,0,0) * q_v.inverse()).coeffs().transpose() << endl;
     cout << "-------------------------------------------------------------------" << endl;  
+    
     return 0;
 }

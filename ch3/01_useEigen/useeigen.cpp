@@ -76,6 +76,17 @@ int main(int argc, char **argv)
     Eigen::MatrixXd V = es.eigenvectors();
     cout << "Finally, V * D * V^(-1):\n" << V*D*V.inverse() << endl;
 
+    // 5. exercise 5 
+    Eigen::Matrix<double, 10, 10> matrixnn;
+    matrixnn.setRandom();
+    cout << "matrixnn is \n" << matrixnn << endl;
+
+    Eigen::Matrix3d matrix33 = Eigen::Matrix3d::Random();
+    matrix33 = matrixnn.block(0,0,3,3);
+    matrix33 = Eigen::Matrix3d::Identity();
+
+    cout << "matrixnn with identity33 is \n" << matrixnn << endl;
+
     
     
     return 0;
