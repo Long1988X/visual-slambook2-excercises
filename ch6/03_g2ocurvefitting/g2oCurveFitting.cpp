@@ -1,7 +1,7 @@
 #include <iostream>
 #include <g2o/core/g2o_core_api.h>
 #include <g2o/core/base_vertex.h>
-// #include <g2o/core/base_unary_edge.h>
+#include <g2o/core/base_unary_edge.h>
 #include <g2o/core/block_solver.h>
 #include <g2o/core/optimization_algorithm_levenberg.h>
 #include <g2o/core/optimization_algorithm_gauss_newton.h>
