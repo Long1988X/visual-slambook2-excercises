@@ -3,6 +3,17 @@
 1. Records of learning the book(slambook 2).
 2. Include knowledge point of every chapter, practice codes, related papers etc.
 
+# Goals
+
+1. 设计自己的视觉SLAM系统；
+2. 能够编译运行、理解、修改经典视觉SLAM程序：ORB-SLAM2；
+3. 生成地图：
+   1. 稀疏、半稠密、稠密点云地图；
+   2. 占据栅格地图；
+   3. 2.5D地图；
+   4. 八叉树地图；
+4. 如何基于以上地图，进行路径规划！
+
 # CONCLUSION
 
 ## Chapter 1
