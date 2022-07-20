@@ -14,7 +14,7 @@ using namespace std;
 using namespace Eigen;
 
 
-string trajectory_file = "../trajectory.txt";  // 注意：相对路径请将外部构建目录作为当前路径，而不是源代码路径！
+string trajectory_file = "../Trajectory.txt";  // 注意：相对路径请将外部构建目录作为当前路径，而不是源代码路径！
 
 typedef vector<Isometry3d, Eigen::aligned_allocator<Isometry3d> > pose_Type;
 
